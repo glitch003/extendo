@@ -6,7 +6,7 @@ $fn = 100;
 height = 150;
 min_radius = 3;
 
-radius_addition_to_keep_from_falling_out = 0.4;
+radius_addition_to_keep_from_falling_out = 0.3;
 
 bottom_holder_thickness = 1;
 bottom_holder_height = 20;
@@ -17,7 +17,7 @@ top_toy_height = 2;
 top_toy_wall_thickness = 0.8;
 
 debug =  false;
-debug_spacing = 10;
+debug_spacing = -3;
 
 module extendo(){
     for ( i = [1 : pieces] ){
