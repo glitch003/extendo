@@ -1,4 +1,4 @@
-pieces = 20;
+pieces = 30;
 width_between = 0.4;
 piece_thickness = 0.8;
 //top_to_bottom_ratio = 0.9;
