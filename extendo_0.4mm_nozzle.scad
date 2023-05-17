@@ -7,7 +7,7 @@ height = 150;
 min_radius = 3;
 skip_first_n_inner_rings = 3;
 
-radius_addition_to_keep_from_falling_out = 0.2;
+radius_addition_to_keep_from_falling_out = 0.3;
 
 bottom_holder_thickness = 1;
 bottom_holder_height = 20;
