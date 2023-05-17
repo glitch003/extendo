@@ -1,12 +1,13 @@
-pieces = 30;
+pieces = 13;
 width_between = 0.4;
 piece_thickness = 0.8;
 //top_to_bottom_ratio = 0.9;
 $fn = 100;
 height = 150;
 min_radius = 3;
+skip_first_n_inner_rings = 3;
 
-radius_addition_to_keep_from_falling_out = 0.3;
+radius_addition_to_keep_from_falling_out = 0.2;
 
 bottom_holder_thickness = 1;
 bottom_holder_height = 20;
@@ -20,7 +21,7 @@ debug =  false;
 debug_spacing = -3;
 
 module extendo(){
-    for ( i = [1 : pieces] ){
+    for ( i = [1 + skip_first_n_inner_rings : pieces] ){
         to_scale = piece_thickness + width_between;
         bottom_radius = (i * to_scale) + min_radius;
         top_radius = bottom_radius + radius_addition_to_keep_from_falling_out;
